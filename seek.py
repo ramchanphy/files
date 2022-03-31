@@ -1,0 +1,7 @@
+f=open("name.txt","r")
+print(f.tell())
+f.seek(0)
+print(f.tell())
+d=f.read()
+print(f.tell())
+print(d)
