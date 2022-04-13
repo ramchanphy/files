@@ -2,6 +2,4 @@
 f=open("demofile.txt","r")
 c=f.readlines()[-1]
 print(c)
-f.close()
-
-    
+f.close()   

@@ -1,7 +1,5 @@
-f=open("name.txt","w+")
-f.write("My name is Ramchanphy")
-f.write("Python is Great")
-f.seek(0)
+f=open("name.txt","r")
+
 c=f.read()
 words=c.split()
 a=[]
