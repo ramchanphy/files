@@ -1,3 +1,3 @@
 f = open("demofile.txt", "r")
 f.seek(2)
-print(f.readline())
+print(f.readline(2))
